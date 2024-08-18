@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Criar tabela</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="h1diet">Criando cardápio saudável</h1>
+    </header>
+    <a href="../index.html" class="link" id="link-diet">Início</a>
+    <input type="checkbox" id="dark">
+    <label class="label" id="label-diet" for="dark">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+    </label>
+
+    <div class="objective" >
+        <p class="pobjective">Qual é o seu objetivo?</p>
+        <input type="checkbox" id="loseWeight">Perder peso
+        <input type="checkbox" id="keepMuscleMass">Manter massa muscular
+        <input type="checkbox" id="gainMuscleMass">Ganhar massa muscular
+    </div>
+      
+    <div id="meals" class="mealsGrandpa">
+        <p class="pdiet">Selecione os alimentos que você gostaria de incluir na sua dieta:</p>
+        <div class="mealsFather1">
+            <div class="mealsChild">
+                <p class="pmealsChild">Café da manhã:</p>
+                <input type="checkbox" id="selectAllBreakfast" class="select"><strong>Selecionar todos</strong>
+                <input type="checkbox" id="unSelectAllBreakfast" class="select"><strong>Desmarcar todos</strong>
+                <br>
+                <input type="checkbox" id="wholemealBread" input class="input" name="Pão integral">Pão integral
+                <input type="checkbox" id="tapioca" input class="input" name="Tapioca">Tapioca
+                <br>
+                <input type="checkbox" id="sugar" input class="input" name="Açúcar">Açúcar
+                <br>
+                <input type="checkbox" id="egg" input class="input" name="Ovo">Ovo 
+                <br>
+                <input type="checkbox" id="ricotaCheese" input class="input" name="Queijo ricota">Queijo ricota
+                <br>
+                <input type="checkbox" id="skimedMilk" input class="input" name="Leite desnatado">Leite desnatado
+            </div>
+            <div class="mealsChild">
+                <p class="pmealsChild">Lanche da manhã:</p>
+                <input type="checkbox" id="selectAllMorningSnack" class="select"><strong>Selecionar todos</strong>
+                <input type="checkbox" id="unSelectAllMorningSnack" class="select"><strong>Desmarcar todos</strong>
+                <br>
+                <input type="checkbox" id="banana" input class="input" name="Banana nanica">Banana nanica
+                <br>
+                <input type="checkbox" id="oat" input class="input" name="Aveia">Aveia
+                <br>
+                <input type="checkbox" id="peanutButter" input class="input" name="Pasta de amendoim">Pasta de amendoim
+                <br>
+                <input type="checkbox" id="yakult" input class="input" name="Yakult">Yakult
+                <input type="checkbox" id="naturalYogurt" input class="input" name="Iogurte natural">Iogurte natural
+            </div>
+        </div>
+        <div class="mealsFather2">
+            <div class="mealsChild">
+                <p class="pmealsChild">Pré-treino:</p>
+                <input type="checkbox" id="sweetPotato" input class="input" name="Batata doce">Batata doce
+        
+            </div>
+            <div class="mealsChild">
+                <p class="pmealsChild">Pós-treino:</p>
+                <input type="checkbox" id="whey" input class="input" name="Whey concentrado">Whey concentrado
+            </div>
+        </div>
+        <div class="mealsFather3">
+            <div class="mealsChild">
+                <p class="pmealsChild">Almoço:</p>
+                <input type="checkbox" id="selectAllLunch" class="select"><strong>Selecionar todos</strong>
+                <input type="checkbox" id="unSelectAllLunch" class="select"><strong>Desmarcar todos</strong>
+                <br>
+                <input type="checkbox" id="wholegrainRice" input class="input" name="Arroz integral">Arroz integral
+                <input type="checkbox" id="cassava" input class="input" name="Mandioca">Mandioca
+                <br>
+                <input type="checkbox" id="chickenFillet" input class="input" name="Filé de frango">Filé de frango
+                <input type="checkbox" id="tilapiaFillet" input class="input" name="Filé de tilápia">Filé de tilápia
+                <input type="checkbox" id="porkChop" input class="input" name="Bisteca suína">Bisteca suína
+                <br>
+                <input type="checkbox" id="bean" input class="input" name="Feijão">Feijão
+                <br>
+                <input type="checkbox" id="tomato" input class="input" name="Tomate">Tomate
+                <br>
+                <input type="checkbox" id="cabbage" input class="input" name="Repolho">Repolho
+                <br>
+                <input type="checkbox" id="carrot" input class="input" name="Cenoura">Cenoura
+            </div>
+            <div class="mealsChild">
+                <p class="pmealsChild">Lanche da tarde:</p>
+                <input type="checkbox" id="selectAllAfternoonSnack" class="select"><strong>Selecionar todos</strong>
+                <input type="checkbox" id="unSelectAllAfternoonSnack" class="select"><strong>Desmarcar todos</strong>
+                <br>
+                <input type="checkbox" id="apple" input class="input" name="Maçã">Maçã
+                <input type="checkbox" id="sleeve" input class="input" name="Manga palmer">Manga palmer
+                <br>
+                <input type="checkbox" id="persimmon" input class="input" name="Caqui">Caqui
+                <input type="checkbox" id="starFruit" input class="input" name="Carambola" >Carambola
+                <input type="checkbox" id="orange" input class="input" name="Laranja pêra">Laranja Pêra
+            </div>
+        </div>
+        <div class="mealsFather4">
+            <div class="mealsChild">
+                <p class="pmealsChild">Jantar:</p>
+                <input type="checkbox" id="selectAllDinner" input class="select"><strong>Selecionar todos</strong>
+                <input type="checkbox" id="unSelectAllDinner" class="select"><strong>Desmarcar todos</strong>
+                <br>
+                <input type="checkbox" id="couscous" input class="input" name="Cuscuz">Cuscuz
+                <br>
+                <input type="checkbox" id="beefSteak" input class="input" name="Bife bovino">Bife bovino
+                <input type="checkbox" id="chickenLiver" input class="input" name="Fígado de frango">Fígado de frango
+                <input type="checkbox" id="cannedSardine" input class="input" name="Sardinha enlatada">Sardinha enlatada
+                <br>
+                <input type="checkbox" id="lettuce" input class="input" name="Alface">Alface
+                <br>
+                <input type="checkbox" id="cucumber" input class="input" name="Pepino">Pepino
+                <br>
+                <input type="checkbox" id="beet" input class="input" name="Beterraba">Beterraba
+                <br>
+                <input type="checkbox" id="oliveOil" input class="input" name="Azeite">Azeite
+            </div>
+            <div class="mealsChild">
+                <p class="pmealsChild">Ceia:</p>
+                <input type="checkbox" id="avocado" input class="input" name="Abacate">Abacate
+            </div>
+        </div>
+    </div>
+
+        <button onclick="chooseMenu()"  class="button" id="button-create">Criar</button>
+        <button onclick="clean()" class="button" id="button-clean">Limpar</button>
+  
+        <p class="ptable">Tabela com as quantidades de caboidratos, proteínas, lipídios e calorias:</p>
+
+            <table id="tbDiet">
+                <thead>
+                    <tr>
+                        <th>Tipo de Refeição</th> 
+                        <th>Nome do alimento</th> 
+                        <th>Quantidade</th>
+                        <th>Carboidratos (g)</th> 
+                        <th>Proteínas (g)</th> 
+                        <th>Lipídios (g)</th> 
+                        <th>Calorias (kcal)</th> 
+                    </tr>
+                </thead>
+            </table>
+        <br>
+        <div class="total">
+            <h2 class="h">Total carboidratos:</h2>
+            <span id="carbohydrate" class="span">0</span>
+            <h2 class="h">Total proteínas:</h2>
+            <span id="protein" class="span">0</span>
+            <h2 class="h">Total lipídios:</h2>
+            <span id="fat" class="span">0</span>
+            <h2 class="h">Total calorias:</h2>
+            <span id="calories" class="span">0</span>
+        </div>
+
+</body>
+<script  src="../js2/script.js"></script>
+<script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>  
+</html>
